@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import "./style.css";
+import "./insex.css";
 import { StrictMode } from 'react';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
