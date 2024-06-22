@@ -1,4 +1,11 @@
 import LazyLoad from 'react-lazyload';
+import Icre from "../../public/images/icons/react.png"
+import IcTa from "../../public/images/icons/tailwind.png"
+import Icht from "../../public/images/icons/html55-01.png"
+import Iccss from "../../public/images/icons/css.png"
+import Icbo from "../../public/images/icons/bootstrabl.png"
+import Icjs from "../../public/images/icons/js.png"
+
 export default function Skills() {
   return (
   
@@ -15,7 +22,7 @@ export default function Skills() {
           <div className="box">
             <div className="image">
             <LazyLoad  offset={100}>
-              <img src="public/images/icons/html55-01.png" alt="" loading="lazy" />
+              <img src={Icht} alt="" loading="lazy" />
               </LazyLoad>
               <div className="num">95%</div>
             </div>
@@ -24,7 +31,7 @@ export default function Skills() {
           <div className="box">
             <div className="image">
                   <LazyLoad  offset={100}>
-              <img src="public/images/icons/css.png" alt="" loading="lazy" />
+              <img src={Iccss} alt="" loading="lazy" />
                   </LazyLoad>
               <div className="num">95%</div>
             </div>
@@ -33,7 +40,7 @@ export default function Skills() {
           <div className="box">
             <div className="image">
                <LazyLoad  offset={100}>
-              <img src="public/images//icons/js.png" alt="" loading="lazy" />
+              <img src={Icjs} alt="" loading="lazy" />
               </LazyLoad>
               <div className="num">75%</div>
             </div>
@@ -43,7 +50,7 @@ export default function Skills() {
             <div className="image">
                <LazyLoad  offset={100}>
               <img
-                src="public/images/icons/bootstrabl.png"
+                src={Icbo}
                 className="bootstrap"
                 alt=""
                 loading="lazy"
@@ -56,7 +63,7 @@ export default function Skills() {
             <div className="image">
                <LazyLoad  offset={100}>
               <img
-                src="public/images/icons/tailwind.png"
+                src={IcTa}
                 className="tailwind"
                 alt=""
                 loading="lazy"
@@ -69,7 +76,7 @@ export default function Skills() {
             <div className="image">
                <LazyLoad  offset={100}>
               <img
-                src="public/images/icons/react.png"
+                src={Icre}
                 className="react"
                 alt=""
                 loading="lazy"

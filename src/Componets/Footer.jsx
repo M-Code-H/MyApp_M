@@ -1,10 +1,11 @@
 
+import Logo from "../../public/images/Logo.png"
 
 export default function Footer(){
     return (
         <>
           <section className="footer">
-        <img src="public/images/Logo.png"
+        <img src={Logo}
         style={{
           width:'150px',
           height: "100px",

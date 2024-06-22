@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useRef } from "react";
-
+import Myimg from "../../public/images/MyImg.jpg"
+import Logo from "../../public/images/Logo.png"
 import {
   FaBarsStaggered,
   FaDownload,
@@ -28,7 +29,7 @@ const Navbar = () => {
      data-aos-offset="200"
       data-aos-duration="1500"
      >
-          <img src="public/images/Logo.png" alt="" loading="lazy" />
+          <img src={Logo} alt="" loading="lazy" />
           <a href="" className="mail">
             <span className="email">McodeH1</span>@gmail.com
           </a>
@@ -89,7 +90,7 @@ const Navbar = () => {
      data-aos-offset="350"
      data-aos-easing="ease-in-sine">
           <div className="myBox-img"><LazyLoad  offset={0}>
-            <img className="myImg" src="public/images/MyImg.jpg" loading="lazy"  alt=""  />
+            <img className="myImg" src={Myimg} loading="lazy"  alt=""  />
              </LazyLoad>
           </div>
         </div>
